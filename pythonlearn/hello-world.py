@@ -5,11 +5,9 @@ pystr = 'Python'
 iscool = 'is cool'
 print(pystr[2:5])
 
-class b:
-    b():
-    {
+class b(object):
+    def __init__(self):
         return 0
-    }
 
 def func_test():
     if str == '1':
